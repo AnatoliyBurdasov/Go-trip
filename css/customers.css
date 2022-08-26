@@ -1,0 +1,36 @@
+.container-left {
+  margin-right: calc(
+    (100% - var(--container-width)) / 2 + var(--container-padding)
+  );
+}
+
+.customers {
+  padding: 100px 0 133px;
+}
+
+.customers__row {
+  display: flex;
+  column-gap: 68px;
+}
+
+.customers__image {
+  width: 478px;
+  margin-right: 53px;
+}
+.customers__image img {
+  border-radius: 60px;
+}
+
+.customers_content {
+  max-width: 564px;
+}
+
+.customers__title {
+  font-size: 45px;
+  font-weight: 500;
+  margin-bottom: 35px;
+}
+
+.customers__avatar {
+  display: flex;
+}

@@ -1,0 +1,70 @@
+.cta {
+  padding: 100px 0;
+}
+
+.cta__plate {
+  display: flex;
+  max-width: 1280px;
+  min-height: 580px;
+  position: relative;
+  padding: 40px 15px;
+  align-items: center;
+  border-radius: 60px;
+  /* margin-bottom: 135px; */
+  background: #ffffff;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cta__plate::before,
+.cta__plate::after {
+  width: 63px;
+  content: "";
+  height: 83px;
+  position: absolute;
+}
+
+.cta__plate::before {
+  left: 74px;
+  bottom: 56px;
+  background-image: url("../img/call-to-action/cta-el-02.svg");
+}
+
+.cta__plate::after {
+  top: 74px;
+  right: 80px;
+  background-image: url("../img/call-to-action/cta-el-01.svg");
+}
+
+.cta__title {
+  font-size: 45px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.cta__text {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 60px;
+  color: var(--secondary);
+}
+
+.cta__btn {
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 500;
+  padding: 25px 55px;
+  border-radius: 27px;
+  display: inline-block;
+  background: var(--button-linear-color);
+}
+
+.cta__btn:hover {
+  color: rgb(232, 178, 53);
+  transition: color 0.2s;
+}
+
+.cta__btn:active {
+  top: 1px;
+  position: relative;
+}

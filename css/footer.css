@@ -1,0 +1,7 @@
+.footer {
+  padding: 56px 0 75px;
+}
+
+.footer a {
+  color: var(--secondary);
+}

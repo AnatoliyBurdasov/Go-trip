@@ -1,0 +1,36 @@
+.destinations {
+  padding: 96px 0 100px;
+  overflow-x: hidden;
+}
+
+.destinations__row {
+  display: flex;
+  column-gap: 50px;
+}
+
+.destinations__content {
+  max-width: 456px;
+}
+
+.destinations__title {
+  font-weight: 600;
+  font-size: 55px;
+  margin-bottom: 15px;
+}
+
+.destinations__title span {
+  font-size: 30px;
+}
+
+.destinations__text {
+  margin-bottom: 60px;
+  font-weight: 500;
+  font-size: 25px;
+  color: var(--secondary);
+}
+
+.destinations__slider {
+  width: 1110px;
+  flex-shrink: 0;
+  position: relative;
+}

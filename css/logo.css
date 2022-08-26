@@ -1,0 +1,33 @@
+.logo {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.logo a {
+  color: inherit !important;
+}
+
+.logo--footer {
+  color: var(--orange);
+}
+
+.nav__login--footer a {
+  display: flex;
+  column-gap: 65px;
+  color: var(--secondary);
+}
+
+/* Разница между двумя классами в том что в первом я говорю что в атребуте class
+ есть класс btn и в этом же атребуте я указал ещё один класс btn--destinations -
+это модификатор, который добавляет определённые стили к основному классу btn
+В файле css файле я должен прописывать .btn.btn--destinations (без пробелов) только так будут 
+срабатывать стили класса btn--destinations.
+*/
+
+/*Второй пример есть div  классом slider и у него есть вложенный тег img
+ с классом slider__item. Это говорит о том что есть класс slider и у него есть
+ класс slider__item и только тогда стили slider__item применятся только тут и
+ нигде больше. Доступ в css  образуется следующим образом .slider .slider__item
+ (между классами должен быть пробел)
+*/

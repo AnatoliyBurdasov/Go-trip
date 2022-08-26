@@ -1,0 +1,58 @@
+.btn {
+  color: #fff !important;
+  background: var(--button-linear-color);
+}
+
+.btn:hover {
+  transition: ease-in-out 0.2s;
+  color: rgb(232, 178, 53) !important;
+}
+
+.btn:active {
+  top: 1px;
+  position: relative;
+}
+
+.btn--header {
+  font-size: 25px;
+  max-height: 91px;
+  font-weight: 600;
+  max-width: 263px;
+  padding: 27px 48px;
+  border-radius: 27px;
+  display: inline-block;
+}
+
+.btn--destinations {
+  font-size: 20px;
+  max-width: 223px;
+  max-height: 79px;
+  font-weight: 600;
+  padding: 27px 48px;
+  border-radius: 27px;
+  display: inline-block;
+}
+
+.btn--cta {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 25px 55px;
+  border-radius: 27px;
+  display: inline-block;
+}
+
+.btn--login {
+  font-size: 15px;
+  font-weight: 500;
+  padding: 13px 44px;
+  border-radius: 100px;
+}
+
+.btn--form {
+  max-width: 300px;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 34px 86px;
+  border-radius: 35px;
+  display: inline-block;
+}
